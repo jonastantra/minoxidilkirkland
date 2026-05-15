@@ -37,7 +37,7 @@ type SiteData = {
 
 const SITE = {
   "key": "kirkland",
-  "dir": "G:\\Clonar Sitio Web Minoxidil\\1.Otros Sitios Web\\minoxidilkirkland\\minoxidilkirkland",
+  "dir": "G:\\1 Creado Con IA\\02 - Sitios Web Estaticos\\Clon Sitio Minoxidil\\1.Otros Sitios Web\\minoxidilkirkland\\minoxidilkirkland",
   "brand": "Kirkland Minoxidil Mexico",
   "shortBrand": "Kirkland Mexico",
   "domain": "https://minoxidilkirklandmexico.net/",

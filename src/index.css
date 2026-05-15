@@ -12,11 +12,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
   margin: 0;
   background: #f6f7f2;
+  overflow-x: clip;
 }
 
 a {
@@ -35,6 +37,7 @@ button {
   --line: rgba(20, 34, 31, 0.14);
   --paper: #fffdf7;
   min-height: 100vh;
+  overflow-x: clip;
 }
 
 .theme-mexico {
@@ -142,10 +145,10 @@ button {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 0.95fr) minmax(380px, 1.05fr);
-  gap: clamp(28px, 6vw, 88px);
+  grid-template-columns: minmax(0, 0.9fr) minmax(360px, 1.1fr);
+  gap: clamp(24px, 5vw, 72px);
   align-items: center;
-  padding: clamp(54px, 8vw, 104px) clamp(18px, 4vw, 72px) 64px;
+  padding: clamp(44px, 7vw, 86px) clamp(18px, 4vw, 72px) 54px;
   background:
     linear-gradient(120deg, rgba(255, 253, 247, 0.98), rgba(246, 247, 242, 0.78)),
     radial-gradient(circle at 82% 18%, rgba(15, 122, 90, 0.12), transparent 32%);
@@ -177,8 +180,9 @@ h1 {
   max-width: 800px;
   margin-bottom: 20px;
   color: var(--ink);
-  font-size: clamp(42px, 6vw, 78px);
-  line-height: 0.96;
+  font-size: clamp(40px, 5.2vw, 72px);
+  line-height: 0.98;
+  overflow-wrap: anywhere;
 }
 
 h2 {
@@ -207,7 +211,8 @@ h3 {
 
 .hero-media {
   position: relative;
-  min-height: 520px;
+  min-height: 0;
+  aspect-ratio: 16 / 11;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -218,14 +223,14 @@ h3 {
 .hero-media img {
   width: 100%;
   height: 100%;
-  min-height: 520px;
+  min-height: 0;
   object-fit: cover;
 }
 
 .theme-mexico .hero-media img,
 .theme-kirkland .hero-media img {
-  object-fit: contain;
-  padding: 30px;
+  object-fit: cover;
+  padding: 0;
 }
 
 .hero-note {
@@ -630,25 +635,60 @@ h3 {
   }
 
   .mini-wa {
-    min-height: 40px;
-    padding: 0 12px;
+    display: none;
   }
 
   .hero {
-    padding-top: 34px;
+    padding: 32px 20px 34px;
+    gap: 28px;
+  }
+
+  .hero-copy,
+  .hero-media {
+    width: 100%;
+    max-width: 350px;
   }
 
   h1 {
-    font-size: 40px;
+    max-width: 350px;
+    font-size: 25px;
+    line-height: 1.02;
+    text-wrap: balance;
   }
 
   .lead {
-    font-size: 18px;
+    max-width: 350px;
+    font-size: 16px;
+    line-height: 1.58;
   }
 
   .hero-media,
   .hero-media img {
-    min-height: 360px;
+    min-height: 0;
+    aspect-ratio: 4 / 3;
+  }
+
+  .hero-note {
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    padding: 14px;
+  }
+
+  .float-wa {
+    right: 12px;
+    bottom: 12px;
+    width: 54px;
+    height: 54px;
+    min-height: 54px;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 0;
+  }
+
+  .float-wa::after {
+    content: "WA";
+    font-size: 16px;
   }
 
   .proof-strip,
