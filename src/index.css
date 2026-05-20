@@ -47,9 +47,174 @@ button {
 }
 
 .theme-kirkland {
-  --accent: #c62828;
-  --ink: #171717;
-  --paper: #fffdfa;
+  --accent: #d62424;
+  --ink: #111;
+  --muted: #6c615d;
+  --line: rgba(17, 17, 17, 0.16);
+  --paper: #fff;
+  background: #f4f0eb;
+}
+
+.theme-kirkland .header {
+  color: #fff;
+  background: rgba(17, 17, 17, 0.94);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-kirkland .header nav {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.theme-kirkland .header nav a:hover {
+  color: #fff;
+}
+
+.theme-kirkland .brand span {
+  background: #d62424;
+}
+
+.theme-kirkland .mini-wa {
+  background: #fff;
+  color: #111;
+}
+
+.theme-kirkland .hero {
+  color: #fff;
+  background:
+    linear-gradient(128deg, #111 0%, #1e1111 48%, rgba(214, 36, 36, 0.9) 48%, #d62424 50%, #f4f0eb 50%);
+}
+
+.theme-kirkland .hero h1,
+.theme-kirkland .hero .lead {
+  color: #fff;
+}
+
+.theme-kirkland .hero-media {
+  border: 0;
+  box-shadow: 0 34px 90px rgba(0, 0, 0, 0.3);
+}
+
+.theme-kirkland .hero-note {
+  background: rgba(17, 17, 17, 0.88);
+}
+
+.theme-kirkland .proof-strip {
+  background: #111;
+}
+
+.theme-kirkland .products {
+  background: #f4f0eb;
+}
+
+.theme-kirkland .product-card {
+  border-top: 5px solid var(--accent);
+  box-shadow: none;
+}
+
+.theme-kirkland .product-image {
+  background:
+    linear-gradient(135deg, #fff, #f3f3f3);
+}
+
+.theme-kirkland .product-image b {
+  background: #111;
+}
+
+.theme-kirkland .editorial {
+  background:
+    linear-gradient(135deg, #111, #261515);
+}
+
+.theme-kirkland .contact {
+  background: #111;
+}
+
+.kirkland-lab,
+.comparison-panel {
+  padding: 76px clamp(18px, 4vw, 72px);
+}
+
+.kirkland-lab {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.75fr) minmax(0, 1.25fr);
+  gap: 28px;
+  align-items: start;
+  background: #fff;
+}
+
+.kirkland-lab > div:first-child p {
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.lab-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.lab-grid article {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  gap: 6px 18px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f7f4f0;
+}
+
+.lab-grid span {
+  grid-row: span 2;
+  width: 36px;
+  height: 36px;
+  background: #111;
+  border: 8px solid var(--accent);
+  border-radius: 50%;
+}
+
+.lab-grid h3,
+.lab-grid p {
+  margin-bottom: 0;
+}
+
+.lab-grid p {
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.comparison-panel {
+  background:
+    linear-gradient(90deg, #211616 0 34%, #f4f0eb 34% 100%);
+}
+
+.theme-kirkland .comparison-panel .section-heading h2,
+.theme-kirkland .comparison-panel .section-heading .eyebrow {
+  color: #fff;
+}
+
+.theme-kirkland .comparison-panel .section-heading p {
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.comparison-grid article {
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.comparison-grid h3 {
+  font-size: 28px;
+}
+
+.comparison-grid p {
+  color: var(--muted);
+  line-height: 1.75;
 }
 
 .header {
@@ -607,7 +772,8 @@ h3 {
   }
 
   .hero,
-  .blog-layout {
+  .blog-layout,
+  .kirkland-lab {
     grid-template-columns: 1fr;
   }
 
@@ -694,8 +860,17 @@ h3 {
   .proof-strip,
   .guide-grid,
   .product-grid,
-  .faq-grid {
+  .faq-grid,
+  .comparison-grid {
     grid-template-columns: 1fr;
+  }
+
+  .theme-kirkland .hero {
+    background: linear-gradient(155deg, #111, #281414 68%, #f4f0eb 68%);
+  }
+
+  .comparison-panel {
+    background: #211616;
   }
 
   .product-body {

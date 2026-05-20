@@ -30,6 +30,8 @@ type SiteData = {
   primaryCta: string;
   secondaryCta: string;
   sections: string[][];
+  checkpoints: string[][];
+  comparison: string[][];
   products: Product[];
   posts: Post[];
   faq: string[][];
@@ -64,6 +66,34 @@ const SITE = {
     [
       "Sin humo",
       "El producto ayuda segun cada caso. La constancia y las expectativas reales importan mucho."
+    ]
+  ],
+  "checkpoints": [
+    [
+      "Caja, lote y botella",
+      "Antes de comprar, pide foto clara de la caja, las botellas y el lote. En Kirkland el detalle visual importa."
+    ],
+    [
+      "Precio coherente",
+      "Lo barato puede salir caro si nadie te explica de donde sale el producto o por que cambia tanto el precio."
+    ],
+    [
+      "Vendedor que sabe responder",
+      "Si no distingue liquido, espuma, meses o rutina, no estas comprando con asesoria: estas apostando."
+    ]
+  ],
+  "comparison": [
+    [
+      "Liquido 5%",
+      "Mejor precio por mes, aplicacion clasica y buena opcion si puedes dejar secar sin prisa."
+    ],
+    [
+      "Espuma",
+      "Mas comoda para rutina rapida, menos sensacion liquida y practica si te desespera el secado."
+    ],
+    [
+      "6 o 12 meses",
+      "Para quien ya va en serio: menos vueltas, mejor control de calendario y abasto completo."
     ]
   ],
   "products": [
@@ -254,9 +284,9 @@ function App() {
 
       <section className="products" id="productos">
         <div className="section-heading">
-          <p className="eyebrow">Productos</p>
-          <h2>Paquetes que se entienden en diez segundos</h2>
-          <p>No meti descripciones eternas: precio, meses, foto real y para que tipo de compra sirve.</p>
+          <p className="eyebrow">Presentaciones Kirkland</p>
+          <h2>Liquido, espuma y meses sin confundir al comprador</h2>
+          <p>Este sitio compite por busquedas de marca: aqui la compra se decide por presentacion, originalidad y rutina, no por cercania.</p>
         </div>
         <div className="product-grid">
           {SITE.products.map((product) => (
@@ -278,10 +308,43 @@ function App() {
         </div>
       </section>
 
+      <section className="kirkland-lab" id="originalidad">
+        <div>
+          <p className="eyebrow">Originalidad</p>
+          <h2>Checklist antes de pedir Kirkland</h2>
+          <p>La marca se busca mucho y justo por eso hay que revisar con calma. Estos puntos bajan el riesgo de comprar a ciegas.</p>
+        </div>
+        <div className="lab-grid">
+          {SITE.checkpoints.map(([title, copy]) => (
+            <article key={title}>
+              <span />
+              <h3>{title}</h3>
+              <p>{copy}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="comparison-panel" id="comparar">
+        <div className="section-heading align-left">
+          <p className="eyebrow">Comparar</p>
+          <h2>Elige por rutina, no por impulso</h2>
+          <p>La mejor presentacion es la que vas a usar bien. Por eso este sitio se enfoca en diferencias claras entre formatos y paquetes.</p>
+        </div>
+        <div className="comparison-grid">
+          {SITE.comparison.map(([title, copy]) => (
+            <article key={title}>
+              <h3>{title}</h3>
+              <p>{copy}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
       <section className="editorial" id="guia">
         <div>
           <p className="eyebrow">Guia rapida</p>
-          <h2>Compra como alguien que ya sabe que revisar</h2>
+          <h2>Compra Kirkland como alguien que ya sabe que revisar</h2>
         </div>
         <div className="guide-grid">
           {productGroups.map((product, index) => (
@@ -297,8 +360,8 @@ function App() {
       <section className="blog" id="blog">
         <div className="section-heading align-left">
           <p className="eyebrow">Blog</p>
-          <h2>15 entradas propias para posicionar sin sonar a texto automatico</h2>
-          <p>Cada sitio habla desde una intencion distinta: local, nacional o Kirkland. La idea es que no sean copias peleando por la misma frase.</p>
+          <h2>Guías para comprar Kirkland sin caer en copia</h2>
+          <p>Estas entradas atacan busquedas de marca: originalidad, liquido, espuma, paquetes, rutina y señales de alerta.</p>
         </div>
         <div className="blog-layout">
           <div className="blog-list">
@@ -337,8 +400,8 @@ function App() {
       <section className="contact" id="contacto">
         <div>
           <p className="eyebrow">Contacto</p>
-          <h2>Escribenos y armamos tu pedido</h2>
-          <p>Telefono y WhatsApp: 55-6938-0408. Manda ciudad, paquete deseado y si lo quieres para barba o cabello.</p>
+          <h2>Confirma tu paquete Kirkland</h2>
+          <p>Telefono y WhatsApp: 55-6938-0408. Manda la presentacion que buscas, meses de tratamiento y si prefieres liquido o espuma.</p>
         </div>
         <a className="button primary" href={WHATSAPP}>Abrir WhatsApp</a>
       </section>
@@ -358,9 +421,9 @@ function Header() {
       </a>
       <nav>
         <a href="#productos">Productos</a>
-        <a href="#guia">Guia</a>
+        <a href="#originalidad">Originalidad</a>
+        <a href="#comparar">Comparar</a>
         <a href="#blog">Blog</a>
-        <a href="#preguntas">Preguntas</a>
         <a href="#contacto">Contacto</a>
       </nav>
       <a className="mini-wa" href={WHATSAPP}>WhatsApp</a>
