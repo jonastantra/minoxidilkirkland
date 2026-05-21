@@ -492,6 +492,7 @@ function App() {
           <a href="#autenticidad">Autenticidad</a>
           <a href="#productos">Catalogo</a>
           <a href="#sucursal">Sucursales</a>
+          <a href="/sucursales.html">Pagina sucursales</a>
           <a href="#cobertura">Cobertura</a>
           <a href="#testimonios">Testimonios</a>
           <a href="#blog">Blog</a>
@@ -726,6 +727,7 @@ function App() {
           <p className="eyebrow">🛡️ Compra Kirkland 100% Auténtico y Seguro</p>
           <h2>Puntos de Recolección Física y Contra Entrega</h2>
           <p>No pongas en riesgo tu dinero depositando por adelantado en páginas web dudosas o esperando envíos locales lentos que pueden perderse. Te invitamos a recoger tu Minoxidil Kirkland original directamente en nuestras instalaciones físicas. Podrás revisar el sellado original de fábrica, lote de importación y fecha de caducidad con el producto en mano antes de realizar tu pago contra entrega.</p>
+          <a className="button secondary" href="/sucursales.html">Ver pagina dedicada de sucursales</a>
         </div>
         
         <div className="sucursales-grid">
