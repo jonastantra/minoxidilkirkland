@@ -13,6 +13,7 @@ type Post = {
   excerpt: string;
   body: string;
   category?: string;
+  date: string;
 };
 
 type SiteData = {
@@ -106,6 +107,7 @@ En la Ciudad de Mexico hay varias opciones, pero no todas ofrecen garantia de au
 
 Tambien ofrecemos entregas personales con pago contra entrega en CDMX, Iztapalapa, Nezahualcoyotl, Los Reyes La Paz, Chalco e Ixtapaluca. Escribenos por WhatsApp para confirmar disponibilidad.`,
       category: "Autenticidad",
+      date: "2026-05-01",
     },
     {
       title: "Minoxidil Kirkland para barba: resultados reales en CDMX",
@@ -149,6 +151,7 @@ Si vives en CDMX o zona metropolitana, la entrega personal tiene ventajas: ves e
 
 Escribenos por WhatsApp. Te orientamos sobre que paquete te conviene segun tu objetivo y presupuesto.`,
       category: "Rutina",
+      date: "2026-05-02",
     },
     {
       title: "Paquetes de Minoxidil Kirkland: 1, 3, 6 o 12 meses, cual elegir",
@@ -197,6 +200,7 @@ Para barba, la mayoria logra buenos resultados en 6 meses. Para cabello, los tie
 
 Escribenos por WhatsApp y te ayudamos a elegir. Te mandamos foto real del producto antes de que pagues.`,
       category: "Paquetes",
+      date: "2026-05-03",
     },
     {
       title: "Entregas personales de minoxidil en CDMX, Neza y zona Oriente",
@@ -252,8 +256,9 @@ Sabemos que comprar por internet puede generar desconfianza. Por eso ofrecemos e
 
 Si estas fuera de nuestra zona de entregas personales, tambien hacemos envios a toda la Republica con tarifa fija de $140 MXN por paqueteria.
 
-Escribenos ya por WhatsApp y coordina tu entrega.`,
+          Escribenos ya por WhatsApp y coordina tu entrega.`,
       category: "Envio",
+      date: "2026-05-04",
     },
     {
       title: "Minoxidil Kirkland: por que es el mas buscado en Mexico",
@@ -286,6 +291,7 @@ En nuestra sucursal de Plaza Guelatao (Iztapalapa, CDMX) puedes venir a revisar 
 
 Escribenos por WhatsApp. Te mandamos fotos reales del lote actual y coordinamos tu compra sin riesgos.`,
       category: "Kirkland",
+      date: "2026-05-05",
     },
     {
       title: "Como usar minoxidil correctamente: guia para principiantes",
@@ -332,6 +338,7 @@ El propilenglicol del minoxidil liquido puede causar resequedad o descamacion en
 
 Escribenos por WhatsApp si tienes dudas. Podemos orientarte sobre que productos empezar y como armar tu rutina.`,
       category: "Rutina",
+      date: "2026-05-06",
     },
     {
       title: "Minoxidil espuma vs liquido Kirkland: diferencias reales",
@@ -384,6 +391,7 @@ Empieza con liquido. Es mas economico y te permite probar sin gran inversion. Si
 
 Escribenos por WhatsApp para ver disponibilidad y precios de ambas presentaciones.`,
       category: "Producto",
+      date: "2026-05-07",
     },
     {
       title: "Minoxidil en Iztapalapa y Nezahualcoyotl: donde comprar seguro",
@@ -433,6 +441,813 @@ Si no puedes venir a nuestras sucursales, nosotros vamos a ti. Coordinamos entre
 
 Escribenos por WhatsApp hoy y coordina tu entrega o visita a sucursal.`,
       category: "Local",
+      date: "2026-05-08",
+    },
+    {
+      title: "La ciencia del minoxidil: por que estimula el crecimiento de barba",
+      excerpt: "Entender como funciona el minoxidil te ayuda a mantener la constancia. Desglose sencillo del mecanismo de accion y por que tarda semanas en verse.",
+      body: `A veces uno se aplica el minoxidil sin entender bien que esta pasando ahi abajo en los foliculos. Y cuando entiendes la ciencia basica, es mas facil mantener la rutina sin desesperarte.
+
+## Como funciona el minoxidil en los foliculos
+
+El minoxidil originalmente era un medicamento para la presion arterial. Los medicos notaron que los pacientes a los que se los recetaban empezaban a desarrollar mas vello corporal. Ahi fue cuando le vieron potencial para el crecimiento capilar.
+
+El mecanismo no esta 100% entendido, pero la teoria mas aceptada es que actua como vasodilatador. Basicamente ensancha los vasos sanguineos microscopicos que rodean los foliculos pilosos, lo que aumenta el flujo de sangre, oxigeno y nutrientes a la raiz del vello.
+
+Ademas, el minoxidil estimula la fase anagena —la fase de crecimiento del pelo— y la prolonga. Esto significa que los folículos permanecen mas tiempo produciendo vello nuevo en lugar de entrar en reposo.
+
+## Por que tarda en verse
+
+El pelo crece aproximadamente 1 cm al mes. Para que ese vello nuevo sea visible y tenga grosor, el foliculo necesita varios ciclos de crecimiento bajo el estimulo del minoxidil. Por eso los primeros cambios notorios aparecen entre las 8 y 12 semanas.
+
+## La clave es la irrigacion
+
+El minoxidil no crea foliculos nuevos donde no existen. Lo que hace es despertar folículos que estaban miniaturizados o en estado de reposo prolongado. Si en una zona jamas tuviste vello (ni siquiera pelusa fina), dificilmente saldra algo. Pero si hay vello fino, debil o poco pigmentado, ahi es donde el minoxidil hace su magia compa.
+
+Escribenos para armar tu rutina con productos Kirkland 100% originales.`,
+      category: "Ciencia",
+      date: "2026-05-30",
+    },
+    {
+      title: "Minoxidil Kirkland vs Rogaine: diferencias que nadie te cuenta",
+      excerpt: "Comparativa honesta entre las dos marcas mas conocidas de minoxidil al 5%. Precio, formula, presentacion y cual conviene mas en Mexico.",
+      body: `Si estas investigando sobre minoxidil, seguro te has topado con Kirkland y Rogaine. Las dos tienen minoxidil al 5%, entonces cual comprar? La respuesta no es tan simple como "el mas barato".
+
+## Mismo ingrediente, distinto precio
+
+El ingrediente activo es identico: minoxidil 5%. Los excipientes tambien son muy similares: alcohol, propilenglicol y agua purificada. Kirkland es fabricado por Perrigo, un laboratorio farmaceutico enorme. Rogaine es la marca original de Johnson & Johnson.
+
+La diferencia de precio es brutal: Rogaine puede costar 3 o 4 veces mas que Kirkland, y el motivo no es la calidad, sino la marca y el marketing.
+
+## Por que Kirkland es la opcion preferida en Mexico
+
+- **Precio:** Por lo que cuesta 1 mes de Rogaine, te compras 3 meses de Kirkland.
+- **Disponibilidad:** Encontrar Rogaine original en Mexico es complicado, y hay muchas falsificaciones.
+- **Resultados:** La formula es practicamente la misma. Los usuarios reportan los mismos resultados.
+
+## Donde esta el truco
+
+El unico riesgo con Kirkland es que, por ser economico, hay mas imitaciones en el mercado. Pero eso se resuelve comprando con distribuidores serios, con sucursal fisica, que te dejen revisar el producto antes de pagar.
+
+Si te quieres ahorrar una lana sin sacrificar resultados, Kirkland es la respuesta. Escribenos y te mandamos fotos del lote actual para que veas que es 100% original.`,
+      category: "Comparativa",
+      date: "2026-05-31",
+    },
+    {
+      title: "Como armar tu primer kit de barba: minoxidil, dermaroller y biotina",
+      excerpt: "Guia para principiantes que quieren empezar con todo. Que comprar, en que orden usar los productos y como combinarlos sin irritar tu piel.",
+      body: `Decidiste entrarle al crecimiento de barba y te quieres armar un kit completo. Bien. Pero hay un orden logico para no tirar dinero y no quemarte la piel al primer intento.
+
+## El kit basico bien armado
+
+**Minoxidil Kirkland 5% liquido.** Es tu producto principal. Aplicas 1 ml dos veces al dia, todos los dias, sin excusas ni pretextos.
+
+**Dermaroller de 0.5 mm.** No lo compres de 1.0 o 1.5 mm si vas empezando. El de 0.5 mm es suficiente para mejorar la absorcion sin lastimar demasiado la piel. Se usa 1 o 2 veces por semana, nunca diario.
+
+**Biotina 10,000 MCG.** Apoyo nutricional desde adentro. No hace magia sola, pero combinada con minoxidil ayuda a que el vello nuevo salga mas grueso y fuerte.
+
+## El orden correcto de uso
+
+Lunes a viernes (excepto el dia de dermaroller):
+1. Lavas tu cara con jabon neutro
+2. Secas bien
+3. Aplicas minoxidil
+4. Esperas que seque
+5. Tomas tu biotina con el desayuno
+
+El dia de dermaroller (digamos sabado):
+1. Lavas tu cara y desinfectas el dermaroller con alcohol
+2. Pasas el rodillo suavemente en cruz sobre la zona
+3. Esperas al menos 12 horas (ideal 24) antes de aplicar minoxidil
+4. Tomas tu biotina normal
+
+## Por que no aplicar minoxidil justo despues del dermaroller
+
+Los microcanales que abre el dermaroller quedan sensibles. Si aplicas minoxidil inmediatamente, el alcohol entra directo y puede causar irritacion severa, ardor y hasta quemaduras quimicas. Mejor espera.
+
+Armate tu kit con nosotros. Tenemos el combo de 3 meses Kirkland + Biotina por $1,000. Escribenos.`,
+      category: "Kit",
+      date: "2026-06-01",
+    },
+    {
+      title: "Los 7 errores que arruinan tu progreso con minoxidil",
+      excerpt: "Identifica los fallos mas comunes que hacen que el tratamiento no funcione. Desde la dosis incorrecta hasta la falta de constancia.",
+      body: `La mayoria de la gente que dice "el minoxidil no me funciono" cometio al menos uno de estos errores. Revisalos y haz autoevaluacion sincera de tu rutina.
+
+## Error 1: No ser constante
+El minoxidil requiere aplicacion diaria, dos veces al dia. Si un dia si y tres no, el foliculo nunca recibe la senal continua que necesita para despertar. Esto es lo mas basico y lo mas dificil: aburrirse de hacer lo mismo todos los dias.
+
+## Error 2: Usar mas de 1 ml por dosis
+Mas NO es mejor. El exceso de minoxidil no se absorbe, escurre, se evapora y solo irrita tu piel. Un mililitro exacto cada 12 horas es la dosis estudiada y comprobada.
+
+## Error 3: Dejar el tratamiento antes de los 3 meses
+Los cambios reales empiezan a verse entre la semana 8 y 12. Si abandonas a los 45 dias porque "no veia nada", tiraste tu dinero y esfuerzo.
+
+## Error 4: No lavar la cara antes de aplicar
+Si tienes grasa, sudor, crema o suciedad en la piel, el minoxidil no penetra correctamente. Cara limpia y seca siempre.
+
+## Error 5: No desinfectar el dermaroller
+El dermaroller abre microcanales. Si esta sucio, introduces bacterias directo a la piel. Alcohol antes y despues de cada uso, sin excepciones.
+
+## Error 6: Aplicar otros productos inmediatamente despues del minoxidil
+Cremas, serum, bloqueador. Todo eso crea una barrera. Espera al menos 30 minutos tras aplicar minoxidil.
+
+## Error 7: Compararse con fotos retocadas de internet
+Las fotos de "resultados en 30 dias" que ves en redes suelen tener filtros, iluminacion engañosa o incluso son photoshopeadas. Se realista con tus expectativas. El progreso es lento, gradual y diferente en cada persona.
+
+Revisa tu rutina y corrige lo que haya que corregir. Si ocupas orientacion, escribenos sin bronca.`,
+      category: "Errores",
+      date: "2026-06-02",
+    },
+    {
+      title: "Guia de frecuencia del dermaroller: ni mucho ni poco",
+      excerpt: "Cada cuanto usar el dermaroller segun el tamaño de aguja. Explicacion de los tiempos de recuperacion de la piel y como evitar irritacion.",
+      body: `El dermaroller es una herramienta poderosisima, pero mal usada puede fastidiarte la piel y atrasar tu progreso. Aqui la guia definitiva de frecuencia segun el calibre de aguja.
+
+## Agujas de 0.25 mm
+Estas son las mas suaves. Solo alcanzan la capa superficial (epidermis) y basicamente mejoran la absorcion de productos topicos. Puedes usarlas cada 48 horas sin problema. Pero para minoxidil, no son las mas recomendadas porque no llegan a la dermis donde estan los foliculos.
+
+## Agujas de 0.5 mm (la dorada)
+Esta es la medida ideal para minoxidil y barba. Penetra hasta la dermis papilar, justo donde estan los foliculos. La frecuencia recomendada es 1 o 2 veces por semana. El tiempo de recuperacion de la piel es de aproximadamente 72 horas, asi que nada de usarlo diario. Sabado y martes, por ejemplo.
+
+## Agujas de 1.0 mm o mas
+Estas ya son para uso profesional. Penetran profundo y requieren aplicacion de anestesia topica. El tiempo de recuperacion es de 7 a 14 dias. No las recomendamos para uso casero con minoxidil. Riesgo alto de infeccion y cicatrices.
+
+## La regla de oro
+
+Jamas apliques minoxidil inmediatamente despues del dermaroller. Los microcanales estan abiertos y el alcohol del minoxidil entra directo, causando irritacion severa. Espera minimo 12 horas, ideal 24 horas. La regla facil: si usas dermaroller en la noche del sabado, aplicas tu siguiente dosis de minoxidil el domingo en la noche.
+
+Recuerda desinfectar siempre con alcohol isopropilico antes y despues de cada uso. Cambia el rodillo cada 3-4 meses porque las agujas pierden filo.
+
+Escribenos si quieres que te recomendemos un dermaroller de calidad.`,
+      category: "Dermaroller",
+      date: "2026-06-03",
+    },
+    {
+      title: "Biotina 10,000 MCG: el complemento que tu barba necesita",
+      excerpt: "La biotina no reemplaza al minoxidil pero lo potencia. Como funciona, que dosis tomar, cuando se notan los efectos y que alimentos la contienen.",
+      body: `La biotina (vitamina B7) es la pareja de baile del minoxidil. Sola no hace crecer barba, pero combinada con minoxidil, ayuda a que el vello nuevo salga mas grueso, oscuro y sano.
+
+## Como funciona la biotina
+
+La biotina participa en la sintesis de queratina, la proteina que forma el 90% de la estructura del cabello, las unas y la barba. Si tu cuerpo tiene deficiencia de biotina, el vello que produzcas sera debil, quebradizo y con poco pigmento.
+
+El minoxidil estimula el foliculo para que produzca vello. La biotina le da a tu cuerpo los ladrillos para construir ese vello de buena calidad. Uno sin el otro es como tener albañiles sin material de construccion.
+
+## Dosis recomendada
+
+10,000 microgramos (MCG) al dia es la dosis mas usada para propositos cosmeticos. Se toma una tableta con el desayuno. La biotina es hidrosoluble, asi que el exceso se elimina por la orina. Por eso es segura y dificil de sobredosificar.
+
+## Alimentos ricos en biotina
+
+Si prefieres lo natural: huevo (la yema), higado, salmon, nueces, almendras, aguacate y camote. Pero para alcanzar los 10,000 MCG solo con comida, tendrias que comer cantidades absurdas. Por eso el suplemento es la via practica.
+
+## Cuando se notan los efectos
+
+La biotina no tiene efecto inmediato. A las 4-6 semanas de uso diario, notaras las unas mas duras y el cabello con mas brillo. Para la barba, los efectos se notan en conjunto con el minoxidil alrededor del tercer mes.
+
+Nosotros manejamos Biotina Natrol de 10,000 MCG con 100 tabletas por $450. Pregunta por el combo Kit del Barbon (3 meses Kirkland + Biotina).`,
+      category: "Biotina",
+      date: "2026-06-04",
+    },
+    {
+      title: "Minoxidil espuma Kirkland: para quien si y para quien no",
+      excerpt: "La espuma es mas cara pero tiene ventajas reales. Analisis de a quien le conviene hacer el gasto extra y quien se puede quedar con el liquido.",
+      body: `La espuma Kirkland al 5% cuesta practicamente el doble que el liquido. Vale la pena? Depende completamente de tu tipo de piel y tu estilo de vida.
+
+## Ventajas reales de la espuma
+
+Se seca mucho mas rapido: entre 5 y 10 minutos contra los 20-30 del liquido. Si sales temprano al jale, a la escuela o al gimnasio, la espuma te ahorra tiempo valioso cada mañana.
+
+No contiene propilenglicol. Este compuesto del liquido es el principal causante de resequedad, descamacion y picazon en pieles sensibles. La espuma usa una base distinta, mucho mas amigable con la piel.
+
+Textura ligera. Si ya tienes algo de barba, al liquido le cuesta llegar a la piel porque el vello lo retiene. La espuma se derrite al contacto y penetra mejor entre el vello existente.
+
+## Desventajas
+
+El precio. Simple y llano. Cuesta casi el doble.
+
+Menor disponibilidad. En Mexico se consigue menos que el liquido y hay que asegurarse de que el vendedor tenga existencias constantes.
+
+Dificil dosificar. Sin gotero, es mas complicado medir exactamente 1 ml. Requieres practica para no desperdiciar producto.
+
+## Para quien es mejor la espuma
+
+- Pieles sensibles que se irritan con el liquido
+- Personas con poco tiempo en las mañanas
+- Quienes ya tienen barba y el liquido no llega bien a la piel
+- Climas calidos donde el liquido tarda mas en evaporarse
+
+## Para quien es mejor el liquido
+
+- Principiantes con presupuesto limitado
+- Quienes necesitan cubrir areas grandes (cuero cabelludo)
+- Personas sin sensibilidad al propilenglicol
+- Quienes priorizan el ahorro por botella
+
+Si estas empezando, prueba liquido un mes. Si tu piel lo tolera bien, quedate con liquido y ahorrate la diferencia. Si te irrita, la espuma es tu opcion. Escribenos para precios y disponibilidad.`,
+      category: "Espuma",
+      date: "2026-06-05",
+    },
+    {
+      title: "Primer mes con minoxidil Kirkland: que esperar semana a semana",
+      excerpt: "Bitacora realista de las primeras 4 semanas de tratamiento. Sin fotos retocadas ni promesas falsas. Lo que de verdad pasa.",
+      body: `Empezar con minoxidil genera ilusion, pero tambien ansiedad. Aqui te contamos la cronologia honesta del primer mes, semana por semana, para que sepas que esperar y no te desanimes.
+
+## Semana 1: Adaptacion
+Aplicas tu primer dosis. El olor a alcohol te sorprende. Sientes el liquido fresco sobre la piel. Tarda en secar mas de lo que esperabas. La piel puede sentirse ligeramente tirante o seca. Ningun cambio visible en el vello. Es normal.
+
+## Semana 2: Resequedad o nada
+Para el dia 10, si tienes piel sensible, notaras algo de resequedad, escamacion o comezon ligera. No te asustes: es el propilenglicol haciendo lo suyo. Usa un hidratante sin alcohol 30 minutos despues de aplicar minoxidil. Si no sientes nada, estas de suerte: tu piel tolera bien el liquido.
+
+## Semana 3: La semana de la duda
+Aqui es donde muchos abandonan. Piensas "no veo nada, esto no funciona". Tranquilo. Los foliculos apenas se estan despertando. No esperes ver vello nuevo todavia. Lo que si puedes notar es que el vello fino que ya tenias se ve ligeramente mas oscuro.
+
+## Semana 4: Primeras microseñales
+Con suerte (y buena genetica), notaras algo de pelusa nueva muy finita y clara. Parece nada, pero es el inicio. Tambien puedes notar que el vello preexistente esta un poco mas grueso al tacto. Son señales de que el tratamiento esta funcionando.
+
+## Lo que NO debes hacer este mes
+- Tomar fotos todos los dias (te vas a frustrar)
+- Compararte con fotos de internet
+- Dejar de aplicar los fines de semana
+- Comprar un chingo de productos extra (empieza solo con minoxidil)
+
+El primer mes es de prueba y adaptacion. Si lograste la constancia diaria, ya ganaste la mitad de la batalla.`,
+      category: "Rutina",
+      date: "2026-06-06",
+    },
+    {
+      title: "Como aplicar minoxidil en el cabello sin desperdiciar producto",
+      excerpt: "Tecnica correcta para entradas, coronilla y linea media. Como separar el cabello y usar el gotero sin que el liquido se vaya a otras partes.",
+      body: `Aplicar minoxidil en la cabeza no es simplemente echar gotas al tanteo. Si no tienes tecnica, desperdicias producto y los resultados tardan mas. Aqui la guia para cada zona.
+
+## Entradas (linea frontal)
+Separa el cabello con un peine fino o con los dedos para exponer la piel directamente. Aplica gota a gota sobre la zona de la entrada, cubriendo desde donde empieza la frente hasta unos 3 cm hacia atras. Distribuye con las yemas dando golpecitos, no frotando. 0.5 ml en cada lado.
+
+## Coronilla (remolino)
+Inclina la cabeza hacia abajo o usa un espejo pequeño para ver el area. Si tienes cabello alrededor, separalo en circulos concentricos para que el liquido llegue a la piel. Aplica en espiral desde el centro hacia afuera. Usa 1 ml completo para esta zona.
+
+## Linea media (si se te marca)
+Si notas que se te abre la linea del centro, aplica una linea delgada de gotas a lo largo de toda la raya. La clave es que el liquido toque piel, no cabello. Despues masajea suavemente en direccion perpendicular a la raya.
+
+## Errores comunes en cabello
+- Echar el gotero completo de golpe en un solo punto: el liquido escurre por la frente
+- Aplicar con el cabello mojado: diluye el producto y no se absorbe
+- Frotar fuerte: es innecesario y puede romper el cabello debilitado
+- Echarse mas de 1 ml por zona: no acelera nada y gotea
+
+Un tip: aplica el minoxidil justo despues de bañarte, con el cuero cabelludo limpio y seco. Asi aseguras maxima absorcion sin barreras de grasa o sudor.
+
+Si estas tratando cabello, lo mas probable es que ocupes mas de un frasco al mes. Revisa nuestros paquetes de 3, 6 y 12 meses. El de 6 meses es el que mas conviene para tratamiento capilar.`,
+      category: "Cabello",
+      date: "2026-06-07",
+    },
+    {
+      title: "Como lavar tu cara antes y despues del minoxidil sin arruinar el tratamiento",
+      excerpt: "La limpieza facial es parte esencial de la rutina. Que jabon usar, cuando lavar, temperatura del agua y errores comunes que resecan la piel.",
+      body: `Lavarse la cara suena a lo mas basico del mundo, pero cuando estas en tratamiento con minoxidil, un mal lavado puede jugarte en contra.
+
+## Antes de aplicar
+
+La piel debe estar limpia y seca. Si tienes grasa, sudor, residuos de crema o contaminacion, el minoxidil no penetra bien. Usa un jabon neutro, sin alcohol, sin fragancias fuertes. Los jabones medicados o muy agresivos resecan de mas.
+
+Agua tibia, nunca caliente. El agua caliente dilata los poros si, pero tambien reseca y puede irritar la piel ya de por si sensible por el minoxidil.
+
+Seca dando golpecitos suaves con una toalla limpia. No frotes. La friccion irrita la piel y puede causar microlesiones.
+
+## Despues de las 4 horas
+
+El minoxidil necesita minimo 4 horas para absorberse al 100%. Durante ese lapso: no te laves la cara, no te metas a nadar, no sudes en exceso.
+
+Pasadas las 4 horas, lavate con el mismo jabon neutro y agua tibia. Retira bien los residuos del producto. El alcohol y el propilenglicol que quedan en la superficie resecan la piel si los dejas mucho tiempo.
+
+Despues del lavado, aplica un hidratante ligero, sin alcohol, tipo gel o serum. Algo que no tape los poros. Esto ayuda a reparar la barrera de la piel antes de la siguiente aplicacion de minoxidil.
+
+## Productos que debes evitar
+
+- Jabones con alcohol o astringentes
+- Exfoliantes fisicos (los que tienen granitos)
+- Tonicos con acidos fuertes
+- Agua micelar como unico metodo de lavado (no retira bien los residuos grasos)
+
+Si tu piel se reseca mucho, considera cambiar de liquido a espuma o complementar con aceite de jojoba despues del lavado nocturno. Escribenos si necesitas orientacion con productos para piel sensible.`,
+      category: "Rutina",
+      date: "2026-06-08",
+    },
+    {
+      title: "10 mitos del minoxidil que la mayoria cree y no son verdad",
+      excerpt: "Desmentimos las creencias mas extendidas sobre el minoxidil. Desde la caida del cabello hasta los supuestos efectos secundarios permanentes.",
+      body: `Hay muchisima desinformacion dando vueltas sobre el minoxidil. Aqui desmentimos los 10 mitos mas comunes que seguro has escuchado.
+
+## Mito 1: "Si dejas de usar minoxidil se te cae mas que antes"
+Falso. Lo que pasa es que pierdes las ganancias. El pelo que crecio gracias al minoxidil se cae al dejar el tratamiento porque el foliculo vuelve a su estado original. Pero no te quedas peor que al principio.
+
+## Mito 2: "El minoxidil causa impotencia"
+Este mito viene de la confusion con el finasteride, que es un medicamento distinto que actua sobre hormonas. El minoxidil es un vasodilatador topico, no afecta las hormonas ni la funcion sexual.
+
+## Mito 3: "Si uso minoxidil me sale pelo en toda la cara aunque no aplique ahi"
+Si el minoxidil solo se absorbe en el area donde lo aplicas. Si te sale vello en otras zonas es porque accidentalmente te tocas ahi con los dedos sin lavarte las manos. Solucion simple: lavate las manos despues de aplicar.
+
+## Mito 4: "La espuma es menos efectiva que el liquido"
+Misma concentracion (5%), mismo ingrediente activo. La efectividad es identica. Lo que cambia es la velocidad de secado y la tolerancia de la piel.
+
+## Mito 5: "Los resultados son permanentes"
+No. Si dejas el tratamiento, los folículos que dependian del minoxidil para mantenerse activos regresan a su estado anterior. El tratamiento es de mantenimiento.
+
+## Mito 6: "Duele o arde al aplicarlo"
+En piel sana e intacta, el minoxidil no deberia doler. Si arde, es probable que tengas la piel lastimada, irritada o que estes usando dermaroller sin esperar el tiempo adecuado.
+
+## Mito 7: "Necesitas receta medica para comprar minoxidil"
+En Mexico, el minoxidil topico al 5% es de venta libre. No necesitas receta. Pero si tienes condiciones medicas preexistentes, consulta a tu medico antes de empezar.
+
+## Mito 8: "Funciona igual para todos"
+La genetica manda. Si tu papa y tu abuelo son lampiños, el minoxidil puede ayudar pero no te va a dar barba de lenador. Los resultados varian muchisimo entre personas.
+
+## Mito 9: "Usar mas cantidad acelera los resultados"
+Usar mas de 1 ml por dosis solo causa irritacion, desperdicio y posible absorcion sistemica. Mas no es mejor.
+
+## Mito 10: "El minoxidil hace que se te caiga el cabello sano"
+El shedding (caida temporal al inicio del tratamiento) solo afecta el vello debil que iba a caerse de todos modos. Lo acelera para que salga vello nuevo mas fuerte.`,
+      category: "Mitos",
+      date: "2026-06-09",
+    },
+    {
+      title: "Donde comprar minoxidil original en CDMX sin que te estafen",
+      excerpt: "Identifica vendedores confiables de minoxidil en la Ciudad de Mexico. Señales de alerta y como verificar que tu compra es segura.",
+      body: `Comprar minoxidil Kirkland original en CDMX deberia ser facil, pero la cantidad de vendedores patito y paginas fraudulentas que han salido hace que uno desconfie. Esta guia te ayuda a comprar seguro.
+
+## Caracteristicas de un vendedor serio
+
+**Sucursal fisica.** Si el vendedor tiene un local establecido al que puedes ir, inspeccionar el producto y pagar en persona, eso ya es buena señal. Los estafadores operan solo en linea y desaparecen.
+
+**Te deja revisar antes de pagar.** Un vendedor legitimo no tiene problema en que veas el producto antes de soltar la lana. Lote, caducidad, sellos. Si se ponen nerviosos cuando pides verlo, desconfia.
+
+**Precio congruente.** Si alguien te ofrece Kirkland a $100 pesos la botella, es falso. El precio del mercado ronda los $200-$300 por unidad, dependiendo del paquete. Lo demasiado barato es robado o pirata.
+
+**WhatsApp de atencion.** Un numero de telefono real, no solo formulario web. Que te respondan dudas, te manden fotos reales y te orienten sin presionarte a comprar ya.
+
+## Banderas rojas de estafa
+
+- Solo aceptan deposito o transferencia por adelantado
+- No tienen ubicacion fisica ni direccion comprobable
+- Usan fotos genericas de internet, no fotos reales de su inventario
+- Precios sospechosamente bajos
+- Pagina web sin informacion de contacto, solo un carrito de compras
+- Reseñas falsas o genericas en sus redes
+
+## La ventaja de comprar en persona
+
+Cuando compras en sucursal o con entrega personal contra entrega, el riesgo es cero. Revisas el producto sellado, verificas que la botella tenga el lote grabado a laser, la tapa child-proof, y la fecha de caducidad vigente. Luego pagas.
+
+Nosotros tenemos sucursal en Plaza Guelatao, Iztapalapa, y entregas personales gratis en CDMX, Neza y zona Oriente. Escribenos al WhatsApp.`,
+      category: "Compra",
+      date: "2026-06-10",
+    },
+    {
+      title: "El efecto shedding: por que se te cae el pelo y en realidad es buena señal",
+      excerpt: "Todo sobre la caida temporal del cabello al iniciar minoxidil. Cuanto dura, como identificarlo y por que indica que el tratamiento esta funcionando.",
+      body: `El shedding es probablemente la etapa mas desconcertante del tratamiento. Estas aplicando minoxidil religiosamente y de repente... se te empieza a caer mas pelo. Tranquilo, compa. Es esperado y hasta deseable.
+
+## Que es el shedding
+
+Shedding significa "muda" en ingles. Es un periodo temporal, usualmente entre las semanas 2 y 8 del tratamiento, donde notas que se te cae mas pelo de lo normal. Puede ser pelo de la barba, cabello o ambos.
+
+## Por que pasa
+
+El minoxidil acelera el ciclo de vida del pelo. Los folículos que estan en fase de reposo (telogena) o que estan produciendo vello debil y miniaturizado reciben la orden de "soltar" ese pelo viejo para que nazca uno nuevo mas fuerte.
+
+Imagina que estas redecorando tu casa: primero tienes que sacar los muebles viejos para meter los nuevos. El shedding es exactamente eso. La caida es temporal (2-4 semanas maximo) y despues empieza a brotar vello nuevo, mas grueso y oscuro.
+
+## Como diferenciarlo de una caida anormal
+
+- El shedding afecta zonas donde aplicas minoxidil, no toda la cabeza
+- Es difuso: se caen varios pelitos finos, no mechones enteros
+- Despues de 3-4 semanas la caida se detiene sola
+- La piel no se ve irritada ni roja (si es el caso, puede ser dermatitis)
+
+## Que hacer durante el shedding
+
+Nada distinto. Sigue tu rutina normal. No aumentes la dosis, no agregues productos nuevos, no dejes el tratamiento. Abandonar en esta etapa es el error clasico: te quedas con la caida sin llegar a ver el rebrote.
+
+## Lo que NO debes hacer
+- Dejar el tratamiento pensando que te esta haciendo daño
+- Aplicar mas cantidad para "compensar"
+- Estresarte (el cortisol empeora la caida)
+- Publicar en foros que "minoxidil me dejo pelon"
+
+Aguanta vara. En 2-3 semanas la caida para y empieza lo chido.`,
+      category: "Shedding",
+      date: "2026-06-11",
+    },
+    {
+      title: "Shampoo con minoxidil: complemento, no remplazo del tratamiento",
+      excerpt: "Diferencias entre el shampoo con minoxidil y el tratamiento topico. Cuando conviene usarlo y por que no sustituye la aplicacion directa.",
+      body: `Cada vez ves mas seguido shampoos que dicen tener minoxidil en su formula. Esta bien integrarlos, pero ojo: no remplazan al tratamiento topico ni de chiste.
+
+## Por que un shampoo no puede sustituir al minoxidil topico
+
+El shampoo esta diseñado para limpiar, no para administrar medicamentos. El tiempo de contacto de un shampoo con el cuero cabelludo es de 2-3 minutos antes de enjuagarlo. En ese lapso, la cantidad de minoxidil que realmente penetra al foliculo es minuscula comparada con la aplicacion directa que se deja por 4 horas.
+
+Ademas, los shampoos tienen detergentes (surfactantes) cuya funcion es arrastrar la grasa y suciedad. Esto tambien arrastra la mayor parte del principio activo que pudiera absorberse. La biodisponibilidad es bajisima.
+
+## Cuando si conviene usarlo
+
+El shampoo con minoxidil funciona bien como complemento, no como tratamiento principal. Su rol es mantener el cuero cabelludo limpio y libre de residuos que bloquean los foliculos, mientras que el minoxidil en la formula aporta un extra marginal.
+
+Usalo como tu shampoo diario, y sigue aplicando tu minoxidil topico dos veces al dia. La combinacion puede ser beneficiosa, especialmente si tienes caspa, exceso de grasa o dermatitis seborreica que obstruye los foliculos.
+
+## Nuestros shampoos
+
+Manejamos el Shampoo Minoxidil Control Caida de 500 ml ($280) y el Shampoo Bergamota Crecimiento de 500 ml ($280). Ambos son buenos complementos para mantener el cuero cabelludo limpio y sano durante el tratamiento.
+
+Pero recuerda: la base de tu tratamiento es el minoxidil topico. Lo demas es apoyo. Escribenos si quieres armar tu rutina completa con shampoo incluido.`,
+      category: "Producto",
+      date: "2026-06-12",
+    },
+    {
+      title: "Jabones de crecimiento para barba: sirven o es puro marketing",
+      excerpt: "Analisis honesto de los jabones artesanales con biotina y sus ingredientes. Que pueden y que no pueden hacer por el crecimiento de tu barba.",
+      body: `Los jabones de crecimiento para barba estan de moda. Los ves en todos lados: bergamota, biotina, carbon activado, etc. Pero realmente sirven para que te crezca la barba?
+
+## Lo que un jabon SÍ puede hacer
+
+Un buen jabon mantiene la piel limpia, libre de exceso de grasa, celulas muertas y bacterias. Una piel limpia es un mejor ambiente para que el minoxidil se absorba y los foliculos funcionen sin obstrucciones.
+
+Los jabones con ingredientes como biotina, aceite de bergamota, aceite de jojoba o vitamina E hidratan la piel y el vello existente, previniendo la resequedad que causa el minoxidil. Esto reduce la irritacion y la descamacion, haciendo que sea mas facil mantener la constancia del tratamiento.
+
+## Lo que un jabon NO puede hacer
+
+Un jabon no va a despertar foliculos dormidos. No importa cuantos ingredientes milagrosos le pongan. El tiempo de contacto del jabon con la piel es de 1-2 minutos antes de enjuagar. No es suficiente para que ningun activo penetre hasta la raiz del foliculo y lo estimule.
+
+Las empresas que te venden "jabon magico para que te crezca barba en 30 dias" te estan viendo la cara. El jabon es un complemento de higiene y cuidado, no un tratamiento.
+
+## Nuestra recomendacion honesta
+
+Los jabones Maximus que manejamos (desde $100 pesos) son productos artesanales de buena calidad. Huelen bien, limpian sin resecar y ayudan a cuidar la piel durante el tratamiento. Pero no esperes que te hagan crecer barba donde no hay.
+
+El combo ganador es: minoxidil topico como tratamiento principal + jabon suave para mantener la piel limpia y sana + biotina como suplemento nutricional. Tres patas de la mesa: estimulo, higiene y nutricion.`,
+      category: "Producto",
+      date: "2026-06-13",
+    },
+    {
+      title: "Balsamo de bergamota: el aliado natural de tu rutina de barba",
+      excerpt: "Por que el balsamo de bergamota es el complemento favorito de quienes usan minoxidil. Hidratacion, aroma y beneficios para la piel.",
+      body: `El balsamo de bergamota es uno de esos productos que, sin ser el protagonista, mejora muchisimo la experiencia del tratamiento con minoxidil.
+
+## Que es la bergamota
+
+La bergamota es un citrico que crece principalmente en el sur de Italia. Su aceite esencial tiene propiedades antisepticas, antiinflamatorias y astringentes suaves. En el mundo del cuidado de barba, se usa para hidratar el vello, calmar la piel irritada y dar aroma fresco.
+
+## Por que combina tan bien con minoxidil
+
+El minoxidil, especialmente el liquido, reseca la piel por el alcohol y el propilenglicol. Con el tiempo, esa resequedad puede causar descamacion, comezon y aspecto de piel maltratada.
+
+El balsamo de bergamota actua como reparador. Despues de tus 4 horas de minoxidil y tu lavado, aplicas una pequeña cantidad de balsamo sobre la zona de la barba. Hidrata la piel, nutre el vello y deja un aroma fresco.
+
+## Como usarlo correctamente
+
+1. Aplicas minoxidil en la mañana y/o noche
+2. Esperas al menos 4 horas
+3. Lavas tu cara con jabon neutro y secas
+4. Tomas una cantidad pequeña de balsamo (tamaño de un chicharo)
+5. Frotas entre las manos para calentarlo
+6. Aplicas sobre la barba con movimientos hacia abajo
+
+No lo uses ANTES del minoxidil porque crea una barrera de aceite que impide la absorcion.
+
+## Nuestros balsamos
+
+Manejamos Balsamo Bergamota Maximus Beard de 45g ($200), Balsamo Crecimiento al 12% ($480) y el Kit Gran Barbon (3 meses Kirkland + Balsamo por $780). Pregunta por el que mejor se ajuste a tu rutina.`,
+      category: "Producto",
+      date: "2026-06-14",
+    },
+    {
+      title: "Como tomar fotos de progreso de tu barba que realmente sirvan",
+      excerpt: "Metodo practico para documentar tu avance con minoxidil. Iluminacion, angulos, frecuencia y como evitar los errores que hacen que las fotos no comparen.",
+      body: `Uno de los errores mas comunes es tomar fotos de progreso que no sirven para nada. Cambios de luz, angulos distintos, barba de 3 dias vs recien rasurada. Asi no se puede comparar nada.
+
+## El metodo correcto
+
+Toma las fotos siempre en el mismo lugar, a la misma hora y con la misma iluminacion. Lo ideal es junto a una ventana con luz natural indirecta. Nada de flash ni focos amarillos que cambian el tono de la piel.
+
+Angulo fijo. Coloca tu celular en un tripie o apoyado contra algo. Las fotos deben ser: una de frente, una de cada perfil (derecho e izquierdo) y una del cuello hacia arriba (para ver definicion de mandibula).
+
+## Frecuencia ideal
+
+Una vez al mes, el mismo dia. Ni cada semana (no se ve diferencia y te frustras) ni cada 6 meses (te pierdes la motivacion de ver avances). El dia 1 de cada mes es facil de recordar.
+
+## Condiciones para que la comparacion sea valida
+
+- Siempre recien rasurado (al ras, con rasuradora electrica o rastrillo)
+- O siempre con el mismo largo de barba (por ejemplo, crecida de 1 semana exacta)
+- Sin productos en la cara (sin balsamo, sin aceite, sin brillo)
+- Sin editar ni aplicar filtros (nada de blanco y negro, ni contraste, ni nada)
+- Misma ropa o sin camisa (la ropa oscura hace que la barba resalte mas artificialmente)
+
+## Como guardar las fotos
+
+Crea un album en tu telefono que se llame "Progreso Barba" con la fecha de cada foto. Al cabo de 3, 6 y 12 meses, pones las fotos lado a lado y ahi si vas a notar la diferencia real.
+
+La mayoria de los "resultados increibles" que ves en internet usan iluminacion engañosa. Con este metodo, tus comparaciones seran honestas y utiles para decidir si sigues o ajustas tu rutina.
+
+Escribenos si llevas tiempo con tratamiento y sientes que te estancaste. Te orientamos.`,
+      category: "Rutina",
+      date: "2026-06-15",
+    },
+    {
+      title: "Minoxidil y gimnasio: mitos y realidades de hacer ejercicio en tratamiento",
+      excerpt: "Si sudar afecta el minoxidil, si el ejercicio aumenta la testosterona y acelera resultados, y como organizar tus horarios de gym y aplicacion.",
+      body: `Si eres de los que van al gym y estas usando minoxidil, seguro te has preguntado si una cosa afecta a la otra. Vamos por partes.
+
+## El sudor y el minoxidil
+
+El minoxidil necesita un minimo de 4 horas para absorberse. Si aplicas minoxidil y a los 20 minutos te metes al gym a sudar como bestia, el sudor va a arrastrar el producto antes de que penetre. Resultado: desperdiciaste esa dosis.
+
+Solucion sencilla: aplica minoxidil DESPUES del gym, no antes. O aplica en la mañana, dejalo secar 4 horas, y ya en la tarde vas al gym sin problema.
+
+## El ejercicio y la testosterona
+
+Hay una creencia de que hacer ejercicio aumenta la testosterona y que eso acelera el crecimiento de barba. Es parcialmente cierto. El ejercicio de fuerza (pesas, no cardio) produce picos temporales de testosterona. Pero ese aumento es marginal y de corta duracion.
+
+La testosterona es uno de los factores que influyen en el crecimiento de barba, pero el principal determinante es la genetica: la sensibilidad de tus foliculos a la DHT (dihidrotestosterona). Si geneticamente no tienes receptores sensibles en la cara, por mas testosterona que tengas, no te va a crecer barba.
+
+## El combo inteligente
+
+Entrenar pesas ayuda a tu salud general, mejora tu circulacion sanguinea y reduce el estres. Esto indirectamente beneficia cualquier tratamiento, incluido el minoxidil. Pero no esperes que por hacer sentadillas te salga barba en 2 meses.
+
+Organiza tus horarios:
+- Mañana: Gym + baño + minoxidil
+- Noche: Lavado de cara + minoxidil
+
+O:
+- Mañana temprano: Minoxidil, esperar 4 horas
+- Medio dia/tarde: Gym
+
+Lo importante es que las 4 horas posteriores a la aplicacion estes sin sudar.`,
+      category: "Rutina",
+      date: "2026-06-16",
+    },
+    {
+      title: "El minoxidil mancha la ropa y la almohada: mitos y soluciones",
+      excerpt: "Resuelve las dudas mas comunes: si el minoxidil destine, mancha o deja residuos. Tips practicos para mantener tu ropa y cama limpias.",
+      body: `Una preocupacion frecuente, sobre todo al inicio, es si el minoxidil va a dejar manchas amarillas en la ropa, la almohada o la piel. Vamos aclarando.
+
+## Mancha la piel?
+
+Aplicado correctamente, no. Pero si dejas que el liquido se acumule sin limpiar los residuos, con el tiempo puede dejar un leve tono amarillento en la piel, especialmente en personas de tez clara. Esto se resuelve lavando la cara pasadas las 4 horas de absorcion. El residuo se va con agua y jabon.
+
+## Mancha la ropa?
+
+El minoxidil liquido, si entra en contacto con telas blancas o de colores claros, puede dejar una mancha amarillenta que con los lavados se vuelve permanente. Esto pasa porque el liquido se oxida al contacto con el aire y los tejidos.
+
+La solucion es simple: espera a que se seque COMPLETAMENTE en tu cara (20-30 minutos, hasta que no sientas nada humedo al tacto) antes de ponerte una camisa o acostarte. Si usas gorro, buff o banda para dormir, eso protege tu almohada.
+
+## Mancha la almohada?
+
+Si aplicas de noche y te duermes sin esperar a que seque, si. La funda blanca agarra un tono amarillento. Soluciones:
+- Usa funda de color oscuro (no se nota)
+- Aplica minoxidil al menos 30-40 minutos antes de acostarte
+- Duerme boca arriba si puedes
+- Usa una toalla pequeña sobre la almohada
+
+## El caso de la espuma
+
+La espuma Kirkland no mancha. Al no contener propilenglicol y secarse en minutos, practicamente no deja residuos en telas. Si las manchas son un problema constante para ti, considera el cambio a espuma.
+
+Un tip extra: lavate las manos inmediatamente despues de aplicar. Si te tocas la ropa con los dedos mojados de minoxidil, ahi si dejas marcas.`,
+      category: "Cuidados",
+      date: "2026-06-17",
+    },
+    {
+      title: "Kit del Barbon: la mejor forma de empezar tu tratamiento de barba",
+      excerpt: "Por que el combo de 3 meses de Kirkland mas Biotina es el punto de entrada ideal. Que incluye, cuanto cuesta y como usarlo.",
+      body: `De todos los paquetes que manejamos, el Kit del Barbon es el mas recomendado para principiantes. Aqui te explicamos por que.
+
+## Que incluye el Kit del Barbon
+
+- Tres botellas de Minoxidil Kirkland 5% liquido (tratamiento para 3 meses)
+- Un frasco de Biotina Natrol de 10,000 MCG con 100 tabletas
+- Precio: $1,000 pesos
+
+Es basicamente el combo inicial completo. Tienes el producto principal (minoxidil) para tres meses de aplicacion diaria, y el suplemento (biotina) para apoyar el crecimiento desde adentro.
+
+## Por que 3 meses es el tiempo ideal para empezar
+
+Un mes es muy poco. Apenas estas adaptandote y no ves resultados. Seis meses es mas compromiso del necesario para alguien que apenas va a probar si el tratamiento le funciona.
+
+Tres meses es el punto dulce: te da tiempo de establecer la rutina, llegar a la etapa donde aparecen los primeros resultados (semanas 8-12), y decidir con evidencia real si quieres continuar o no.
+
+## Cuanto te ahorras vs comprar por separado
+
+Si compraras cada cosa individual:
+- 3 botellas Kirkland (1 mes c/u a $250): $750
+- Biotina Natrol 100 tabletas: $450
+- Total por separado: $1,200
+
+Con el Kit del Barbon: $1,000. Te ahorras $200 y te llevas todo junto, sin tener que volver a pedir cada mes.
+
+## Como usar el kit
+
+- Minoxidil: 1 ml dos veces al dia, todos los dias
+- Biotina: 1 tableta diaria con el desayuno
+
+En tres meses evaluas resultados. Si te funciono, te pasas al paquete de 6 meses que tiene mejor precio por botella.
+
+Escribenos por WhatsApp para pedir tu Kit del Barbon. Te mandamos foto del lote actual y coordinamos la entrega.`,
+      category: "Kit",
+      date: "2026-06-18",
+    },
+    {
+      title: "Rutina nocturna de minoxidil: el habito que acelera resultados",
+      excerpt: "Como aprovechar la noche para maximizar la absorcion del minoxidil. Pasos, tiempos y productos complementarios para tu rutina antes de dormir.",
+      body: `La aplicacion nocturna de minoxidil es, para muchos, la mas importante del dia. Durante la noche, tu cuerpo esta en modo reparacion, la circulacion es estable y no hay exposicion al sol, sudor ni contaminacion. Es el momento ideal para que el minoxidil actue sin interrupciones.
+
+## Paso a paso de la rutina nocturna
+
+**8:00 PM** — Lavas tu cara con jabon neutro y agua tibia. Retiras todo el residuo de la aplicacion de la mañana, mas la grasa y suciedad del dia. Secas a golpecitos.
+
+**8:15 PM** — Aplicas 1 ml de minoxidil sobre la zona de barba (o cabello). Distribuyes suave, masajeando sin frotar. Dejas secar al aire.
+
+**8:45 PM** — A esta hora el minoxidil ya deberia estar seco al tacto. Si usas balsamo o hidratante, este es el momento (no antes, porque bloquea la absorcion).
+
+**9:30 PM en adelante** — Ya puedes recargarte en la almohada sin preocupacion. Si quieres proteger tu funda, pon una toalla pequeña.
+
+## Por que de noche funciona mejor
+
+- Cero exposicion solar (el minoxidil se degrada con luz UV directa)
+- Sin sudor ni movimiento que arrastre el producto
+- Piel en modo reparacion natural
+- Menos probabilidad de olvidar la dosis (la asocias con tu rutina de dormir)
+
+## Lo que NO debes hacer de noche
+
+- Aplicar e irte a dormir inmediatamente (el producto se va a la almohada, no a tu piel)
+- Usar productos con retinol o acidos fuertes en la misma zona
+- Dejar el minoxidil toda la noche sin lavar en la mañana
+
+Al dia siguiente, al despertar, lavas tu cara para retirar el residuo nocturno y aplicas tu dosis de la mañana. Dos aplicaciones diarias, separadas por 12 horas, es el ritmo que demostro mejores resultados.`,
+      category: "Rutina",
+      date: "2026-06-19",
+    },
+    {
+      title: "Como guardar tu minoxidil para que dure los 6 meses sin perder efectividad",
+      excerpt: "Consejos de almacenamiento para mantener tu minoxidil en optimas condiciones. Temperatura, luz, humedad y como detectar si ya caduco.",
+      body: `Compraste el paquete de 6 meses. Tienes 6 botellas en casa. Como las guardas para que la ultima este tan efectiva como la primera?
+
+## Temperatura ideal
+
+El minoxidil debe almacenarse entre 15 y 25 grados centigrados. Alejalo de fuentes de calor como estufas, ventanas con sol directo o el interior de un coche estacionado. El calor acelera la degradacion de los compuestos.
+
+En verano, si tu casa se calienta mucho, guarda los frascos en un cajon fresco, en la parte baja de un closet o en una caja de carton que los aisle del calor ambiental.
+
+## Luz
+
+El minoxidil es fotosensible. La luz directa, especialmente la ultravioleta, degrada el principio activo. Siempre guarda los frascos cerrados en su caja original o en un lugar oscuro. Nada de dejarlos en el buró junto a la ventana.
+
+## Humedad
+
+El baño NO es buen lugar para guardar minoxidil. La humedad del vapor de la regadera puede contaminar los frascos y afectar la formula. Aunque esten cerrados, los cambios de temperatura y humedad constantes no son ideales.
+
+## Como saber si un frasco ya no sirve
+
+Un minoxidil en buen estado es transparente o ligeramente amarillento. Si al abrir un frasco notas:
+- Color marron o turbio
+- Olor rancio o distinto al alcohol normal
+- Cristales que no se disuelven al agitar a temperatura ambiente
+- Sedimento visible
+
+Probablemente ese frasco ya caduco o se almaceno mal. No lo uses. Contactanos para que te demos uno en buen estado.
+
+## Duracion real
+
+La fecha de caducidad en la caja es conservadora. Bien almacenado, el minoxidil puede durar 2-3 años sin perder potencia significativa. Pero si compraste para 6-12 meses, no deberias tener problema siempre que sigas las recomendaciones de arriba.
+
+Escribenos si tienes dudas sobre el almacenamiento o quieres verificar la fecha de caducidad de los lotes actuales.`,
+      category: "Cuidados",
+      date: "2026-06-20",
+    },
+    {
+      title: "Como manejar la resequedad extrema causada por el minoxidil sin dejar el tratamiento",
+      excerpt: "Estrategias practicas para pieles que sufren con el propilenglicol. Productos, rutinas y cambios que alivian sin sacrificar resultados.",
+      body: `La resequedad es el efecto secundario mas reportado del minoxidil liquido. Puede ser desde una ligera tirantez hasta descamacion visible que da pena. Pero no tienes que elegir entre aguantartela o abandonar.
+
+## Por que reseca tanto
+
+El culpable principal es el propilenglicol, un excipiente que ayuda a que el minoxidil se absorba, pero que tambien extrae humedad de la piel. Combinado con el alcohol (que evapora y se lleva parte de los aceites naturales de tu piel), el resultado es una piel seca, irritada y escamosa.
+
+## Estrategia 1: Hidratacion post-minoxidil
+
+Pasadas las 4 horas de absorcion, lava tu cara y aplica un hidratante. Los mejores para este caso:
+- Aceite de jojoba (3-4 gotas): es el mas parecido al sebo natural de la piel
+- Gel de aloe vera puro: refresca y calma
+- Crema con ceramidas: repara la barrera cutanea
+
+NUNCA apliques hidratante antes del minoxidil. Formas una pelicula que bloquea la absorcion.
+
+## Estrategia 2: Reduce la friccion
+
+Al lavarte, seca a golpecitos, no tallando. Usa toallas de microfibra (son mas suaves). Al aplicar minoxidil, distribuye con las yemas, no con las uñas ni la palma.
+
+## Estrategia 3: Cambia a espuma
+
+Si ya probaste todo y la resequedad sigue, la espuma Kirkland es tu solucion. No contiene propilenglicol y es mucho mas amigable con pieles sensibles. Si, es mas cara, pero tu comodidad lo vale.
+
+## Estrategia 4: Dermaroller en la noche de hidratacion
+
+El dia que uses dermaroller (sin minoxidil), aplica aceite de jojoba o un suero hidratante despues del rodillo. Los microcanales ayudan a que los hidratantes penetren mejor. Matas dos pajaros de un tiro: estimulas crecimiento e hidratas profundo.
+
+Escribenos si la resequedad no se te quita. Podemos orientarte sobre el cambio a espuma o productos complementarios.`,
+      category: "Cuidados",
+      date: "2026-06-21",
+    },
+    {
+      title: "Testosterona, DHT y barba: la relacion real explicada sin tecnicismos",
+      excerpt: "Entiende el papel de las hormonas en el crecimiento de barba. Por que unos tienen barba tupida y otros no, y donde entra el minoxidil en esta ecuacion.",
+      body: `La genetica de la barba es uno de los temas que mas confusion genera. Vamos a explicarlo simple, sin terminos medicos rebuscados.
+
+## Los tres actores principales
+
+**Testosterona:** Es la hormona masculina por excelencia. Circula por tu sangre y cumple muchas funciones. En los foliculos de la barba, la testosterona es convertida en DHT por una enzima llamada 5-alfa-reductasa.
+
+**DHT (dihidrotestosterona):** Esta es la hormona que realmente estimula el crecimiento de la barba y el vello corporal. Es mucho mas potente que la testosterona para este proposito.
+
+**Receptores androgenicos:** Son como "cerraduras" en tus foliculos. La DHT es la "llave". Si tus foliculos en la cara tienen muchos receptores y son sensibles a la DHT, tendras barba tupida. Si tienes pocos receptores o son poco sensibles, aunque tengas testosterona por los cielos, no te crecera barba.
+
+## Por que hay lampiños con mucha testosterona
+
+La cantidad de testosterona en sangre no determina la barba. Lo que determina es la sensibilidad genetica de tus foliculos faciales a la DHT. Es como tener un carro con mucha gasolina (testosterona) pero sin llave (receptores). La gasolina no sirve si no la puedes usar.
+
+## Donde entra el minoxidil
+
+El minoxidil no es hormonal. No afecta la testosterona ni la DHT. Actua por una via completamente distinta: mejora la circulacion y prolonga la fase de crecimiento del foliculo. Es como darle fertilizante a una planta. No cambia la genetica de la planta, pero la ayuda a crecer mas fuerte.
+
+Por eso el minoxidil funciona mejor en personas que YA tienen algo de vello (asi sea fino). Si los foliculos estan ahi y los receptores tambien, el minoxidil les da el empujon que necesitan. Si geneticamente no tienes foliculos en la zona, el minoxidil no puede inventarlos.`,
+      category: "Ciencia",
+      date: "2026-06-22",
+    },
+    {
+      title: "Guia de precios de minoxidil Kirkland en Mexico: cuanto pagar y cuanto es demasiado",
+      excerpt: "Precios de referencia actualizados de Minoxidil Kirkland en el mercado mexicano. Como identificar precios justos y cuando sospechar de una oferta.",
+      body: `El precio del Minoxidil Kirkland en Mexico varia muchisimo. Aqui te damos una referencia honesta para que sepas que estas pagando un precio justo y cuando te quieren ver la cara.
+
+## Precios de referencia (Mayo-Junio 2026)
+
+- 1 mes Kirkland liquido: $200 - $300 MXN
+- 3 meses Kirkland liquido: $550 - $700 MXN
+- 6 meses Kirkland liquido: $1,000 - $1,200 MXN
+- 12 meses Kirkland liquido: $1,800 - $2,200 MXN
+- 1 mes Kirkland espuma: $400 - $550 MXN
+
+Estos precios asumen producto original, importado legalmente, con numero de lote vigente y caducidad de al menos 12 meses.
+
+## Cuando un precio es demasiado bajo
+
+Si ves 1 mes de Kirkland en $80-$150 pesos, es falso o robado. No hay forma de importar producto legitimo, pagar impuestos, distribucion y tener margen a ese precio. Desconfia.
+
+## Cuando un precio es demasiado alto
+
+Si te quieren cobrar $500 por 1 mes de Kirkland liquido, te estan viendo la cara. Ese es precio de Rogaine de farmacia elegante, no de Kirkland.
+
+## Nuestros precios
+
+Manejamos precios competitivos porque importamos directo y no tenemos los costos de una tienda de lujo ni los margenes de reventa multiple. Ademas, al comprar paquetes de 3, 6 o 12 meses, el precio por botella baja significativamente.
+
+## Lo que incluye el precio
+
+Cuando compras con nosotros, el precio incluye:
+- Producto Kirkland 100% original con lote vigente
+- Asesoria personalizada por WhatsApp
+- Entrega personal gratis en CDMX, Iztapalapa y Neza
+- Pago contra entrega (cero riesgo)
+
+Escribenos para cotizar tu paquete. Te decimos precio exacto segun la presentacion que te convenga y tu zona de entrega.`,
+      category: "Compra",
+      date: "2026-06-23",
+    },
+    {
+      title: "Recapitulacion de 6 meses con Kirkland: lo que aprendimos en el camino",
+      excerpt: "Resumen de todo el conocimiento acumulado sobre minoxidil, Kirkland, barba y cabello. Los aprendizajes clave para quien empieza o ya va a medio camino.",
+      body: `Despues de 25 articulos cubriendo practicamente todo lo relacionado con minoxidil, Kirkland, barba y cabello, hacemos un resumen de lo mas importante.
+
+## Los 5 aprendizajes clave
+
+**1. La constancia mata al talento.** El mejor minoxidil del mundo no sirve si lo aplicas un dia si y dos no. La rutina diaria, sin excusas, es lo unico que garantiza resultados.
+
+**2. El producto original es innegociable.** Comprar minoxidil pirata o de dudosa procedencia no solo es tirar el dinero, es arriesgar tu piel a sustancias desconocidas. Siempre verifica lote, tapa y presentacion antes de pagar.
+
+**3. Los complementos ayudan, pero no remplazan.** Biotina, dermaroller, shampoos y balsamos son aliados valiosos. Pero ninguno sustituye al minoxidil topico. Son acompañamiento, no plato principal.
+
+**4. La genetica pone el limite, el minoxidil te lleva hasta ahi.** No esperes barba de vikingo si en tu familia todos son lampiños. El minoxidil maximiza tu potencial genetico, no lo reescribe.
+
+**5. Comprar en persona es mas seguro.** Depositar por adelantado en paginas web desconocidas es un volado. La entrega personal con pago contra entrega elimina el riesgo de estafa.
+
+## Lo que sigue
+
+Si ya terminaste tu tratamiento de 3 o 6 meses y estas satisfecho, manten la rutina. Si te estancaste, revisa nuestro articulo sobre como romper la meseta. Si vas empezando, el Kit del Barbon es tu mejor puerta de entrada.
+
+Escribenos por WhatsApp. No somos una tienda anonima: tenemos sucursal fisica en Iztapalapa, entregas personales en CDMX y zona Oriente, y envios a todo Mexico. Te orientamos sin compromiso.`,
+      category: "General",
+      date: "2026-06-24",
     },
   ],
   faq: [
@@ -500,11 +1315,18 @@ function App() {
 
   const selectedPost = SITE.posts[activePost];
 
+  const publishedPosts = useMemo(() => {
+    const today = new Date().toISOString().slice(0, 10);
+    return SITE.posts
+      .filter(p => p.date <= today)
+      .sort((a, b) => b.date.localeCompare(a.date));
+  }, []);
+
   const activeBlogPost = useMemo(() => {
     if (!hash.startsWith("#blog/")) return null;
     const slug = hash.replace("#blog/", "");
-    return SITE.posts.find((p) => slugify(p.title) === slug) ?? null;
-  }, [hash]);
+    return publishedPosts.find((p) => slugify(p.title) === slug) ?? null;
+  }, [hash, publishedPosts]);
 
   useEffect(() => {
     const sync = () => setHash(window.location.hash);
@@ -741,7 +1563,7 @@ function App() {
         </div>
         <div className="blog-layout">
           <div className="blog-list">
-            {SITE.posts.map((post, index) => (
+            {publishedPosts.map((post, index) => (
               <button
                 className={`blog-list-item ${activePost === index ? "active" : ""}`}
                 key={post.title}
@@ -754,13 +1576,13 @@ function App() {
             ))}
           </div>
           <div className="blog-reader">
-            <span className="eyebrow">{selectedPost.category ?? "Articulo"}</span>
-            <h3>{selectedPost.title}</h3>
-            <p>{selectedPost.excerpt}</p>
+            <span className="eyebrow">{publishedPosts[activePost]?.category ?? "Articulo"}</span>
+            <h3>{publishedPosts[activePost]?.title ?? ""}</h3>
+            <p>{publishedPosts[activePost]?.excerpt ?? ""}</p>
             <p style={{ color: "var(--text-secondary)", fontSize: 14, lineHeight: 1.7, marginBottom: 20 }}>
-              {selectedPost.body.substring(0, 250)}...
+              {publishedPosts[activePost]?.body.substring(0, 250) ?? ""}...
             </p>
-            <a className="btn btn-whatsapp" href={postPath(selectedPost)}>Leer articulo completo</a>
+            <a className="btn btn-whatsapp" href={publishedPosts[activePost] ? postPath(publishedPosts[activePost]) : "#"}>Leer articulo completo</a>
           </div>
         </div>
       </section>
